@@ -31,5 +31,11 @@ angular.module('rx.ui-router-redirect', [
         }
       }
     });
+  }).config(function($stateProvider) {
+    $stateProvider.alias = function(alias, state) {
+      return $stateProvider.state(alias, {
+        redirectTo: state
+      });
+    }
   })
 ;
