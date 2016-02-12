@@ -1,0 +1,24 @@
+{
+  "name": "ui-router-redirect",
+  "main": "index.js",
+  "authors": [
+    "rixo@protonmail.ch"
+  ],
+  "description": "redirectTo for ui-router",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "ui-router",
+    "redirect",
+    "redirectTo"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
